@@ -7,6 +7,7 @@
 //
 
 #import "SecondView.h"
+#import "GANTracker.h"	// Google SCREEN-1
 
 
 @implementation SecondView
@@ -22,12 +23,19 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+ 
+	// Google SCREEN-2	
+	if (![[GANTracker sharedTracker] trackPageview:@"/second_view"
+		withError:nil]) {
+		// Handle error here
+	}
+ 
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.

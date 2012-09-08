@@ -7,6 +7,7 @@
 //
 
 #import "NavTestAppDelegate.h"
+#import "GANTracker.h"	// Google SETUP-1
 
 @implementation NavTestAppDelegate
 
@@ -18,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
+	// Google SETUP-2 Begin
+	[[GANTracker sharedTracker] startTrackerWithAccountID:@"UA-34669016-1"
+										   dispatchPeriod:0
+												 delegate:nil];
+		
+	// Google SCREEN-2
+	if (![[GANTracker sharedTracker] trackPageview:@"/first_view"
+										 withError:nil]) {
+		// Handle error here
+	}
+	
+	
     // Override point for customization after application launch.
     self.window.rootViewController = self.myNavController;
 	
@@ -76,6 +89,7 @@
 
 
 - (void)dealloc {
+	[[GANTracker sharedTracker] stopTracker];	// Google SETUP-3
     [window release];
     [super dealloc];
 }

@@ -8,6 +8,7 @@
 
 #import "MainView.h"
 #import "SecondView.h"
+#import "GANTracker.h"	// Google EVENT-1
 
 @implementation MainView
 
@@ -29,14 +30,30 @@
 - (IBAction) myButtonB_OnClick: (id) sender
 {
 	myLabel.text = @"Button B for Bronco";
-
+	
+	// Google EVENT-2
+	if (![[GANTracker sharedTracker] trackEvent:@"Button_B"
+										 action:@"Clicked"
+										  label:@"my_label"
+										  value:-1
+									  withError:nil]) {
+		// Handle error here
+	}
+	
 }
 
 - (IBAction) myButtonC_OnClick: (id) sender
 {
 	myLabel.text = @"Button C for Czech Republic";
 	
-	
+	// Google EVENT-3
+	if (![[GANTracker sharedTracker] trackEvent:@"Button_C"
+										 action:@"Clicked"
+										  label:@"my_label"
+										  value:-1
+									  withError:nil]) {
+		// Handle error here
+	}
 }
 
 
@@ -52,12 +69,16 @@
 }
 */
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+	// Google SCREEN-2	
+	if (![[GANTracker sharedTracker] trackPageview:@"/first_view"
+										 withError:nil]) {
+		// Handle error here
+	}	
 }
-*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.

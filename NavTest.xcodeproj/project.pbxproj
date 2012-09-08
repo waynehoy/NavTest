@@ -17,6 +17,9 @@
 		B02B459D15F9D3D000BF32ED /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02B459B15F9D3D000BF32ED /* SecondView.xib */; };
 		B0AFC39E15F9CB38009FA3B0 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AFC39C15F9CB38009FA3B0 /* MainView.m */; };
 		B0AFC39F15F9CB38009FA3B0 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0AFC39D15F9CB38009FA3B0 /* MainView.xib */; };
+		B0D7CF2315FAD32700F398C7 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D7CF2215FAD32700F398C7 /* libGoogleAnalytics.a */; };
+		B0D7CF3E15FAD36100F398C7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D7CF3D15FAD36100F398C7 /* CFNetwork.framework */; };
+		B0D7CF4215FAD38F00F398C7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D7CF4115FAD38F00F398C7 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,10 @@
 		B0AFC39B15F9CB38009FA3B0 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		B0AFC39C15F9CB38009FA3B0 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		B0AFC39D15F9CB38009FA3B0 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		B0D7CF2115FAD32700F398C7 /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		B0D7CF2215FAD32700F398C7 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		B0D7CF3D15FAD36100F398C7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B0D7CF4115FAD38F00F398C7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,9 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B0D7CF2315FAD32700F398C7 /* libGoogleAnalytics.a in Frameworks */,
+				B0D7CF3E15FAD36100F398C7 /* CFNetwork.framework in Frameworks */,
+				B0D7CF4215FAD38F00F398C7 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +70,8 @@
 				B02B459B15F9D3D000BF32ED /* SecondView.xib */,
 				B0AFC39B15F9CB38009FA3B0 /* MainView.h */,
 				B0AFC39C15F9CB38009FA3B0 /* MainView.m */,
+				B0D7CF2115FAD32700F398C7 /* GANTracker.h */,
+				B0D7CF2215FAD32700F398C7 /* libGoogleAnalytics.a */,
 				B0AFC39D15F9CB38009FA3B0 /* MainView.xib */,
 				1D3623240D0F684500981E51 /* NavTestAppDelegate.h */,
 				1D3623250D0F684500981E51 /* NavTestAppDelegate.m */,
@@ -111,6 +123,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B0D7CF3D15FAD36100F398C7 /* CFNetwork.framework */,
+				B0D7CF4115FAD38F00F398C7 /* libsqlite3.0.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,6 +211,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NavTest_Prefix.pch;
 				INFOPLIST_FILE = "NavTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
 				PRODUCT_NAME = NavTest;
 			};
 			name = Debug;
@@ -209,6 +227,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NavTest_Prefix.pch;
 				INFOPLIST_FILE = "NavTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
 				PRODUCT_NAME = NavTest;
 				VALIDATE_PRODUCT = YES;
 			};
