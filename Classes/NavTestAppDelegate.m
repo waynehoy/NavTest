@@ -7,6 +7,7 @@
 //
 
 #import "NavTestAppDelegate.h"
+#import "Flurry.h"	// Flurry SETUP-1
 
 @implementation NavTestAppDelegate
 
@@ -19,8 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    self.window.rootViewController = self.myNavController;
+	[Flurry startSession:@"CXXGJ735QM7NHG8SWXQ7"];	// Flurry SETUP-2
+	[Flurry logAllPageViews:self.myNavController];	// Flurry SCREEN-1
 	
+    self.window.rootViewController = self.myNavController;	
     [self.window makeKeyAndVisible];
     
     return YES;

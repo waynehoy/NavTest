@@ -79,7 +79,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Button 1</string>
+						<string key="IBUINormalTitle">Next Screen</string>
 						<reference key="IBUIHighlightedTitleColor" ref="775945349"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>

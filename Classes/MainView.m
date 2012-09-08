@@ -8,6 +8,7 @@
 
 #import "MainView.h"
 #import "SecondView.h"
+#import "Flurry.h" // Flurry EVENT-1
 
 @implementation MainView
 
@@ -29,12 +30,14 @@
 - (IBAction) myButtonB_OnClick: (id) sender
 {
 	myLabel.text = @"Button B for Bronco";
+	[Flurry logEvent:@"Button-B"];	// Flurry EVENT-2
 
 }
 
 - (IBAction) myButtonC_OnClick: (id) sender
 {
 	myLabel.text = @"Button C for Czech Republic";
+	[Flurry logEvent:@"Button-C"];	// Flurry EVENT-2
 	
 	
 }

@@ -1,12 +1,24 @@
 TNavTest
 v7
 r0
-t368694412.403292
+t368757440.426398
 cCheck dependencies
 cProcessInfoPlistFile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Info.plist NavTest-Info.plist
 cCompileXIB /Users/Wayne/Desktop/NavTest/MainWindow.xib
 cCompileXIB /Users/Wayne/Desktop/NavTest/Classes/MainView.xib
 cCompileXIB /Users/Wayne/Desktop/NavTest/Classes/../SecondView.xib
+cCpResource build/Debug-iphonesimulator/NavTest.app/FlurryAds-iOS-READMEv4.0.pdf Flurry/FlurryAds-iOS-READMEv4.0.pdf
+cCpResource build/Debug-iphonesimulator/NavTest.app/FlurryAds-iOS-ReleaseNotesv4.0.pdf Flurry/FlurryAds-iOS-ReleaseNotesv4.0.pdf
+cCpResource build/Debug-iphonesimulator/NavTest.app/FlurryAnalytics-READMEv4.0.pdf Flurry/FlurryAnalytics-READMEv4.0.pdf
+cCpResource build/Debug-iphonesimulator/NavTest.app/iOS-4.x-Upgrade-README.pdf Flurry/iOS-4.x-Upgrade-README.pdf
+cCpResource build/Debug-iphonesimulator/NavTest.app/Avro-LICENSE.txt Flurry/Licenses/Avro-LICENSE.txt
+cCpResource "build/Debug-iphonesimulator/NavTest.app/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf" "Flurry/Licenses/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf"
+cCpResource "build/Debug-iphonesimulator/NavTest.app/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf" "Flurry/Licenses/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf"
+cCpResource build/Debug-iphonesimulator/NavTest.app/Flurry-LICENSE.txt Flurry/Licenses/Flurry-LICENSE.txt
+cCpResource build/Debug-iphonesimulator/NavTest.app/Flurry_AppCircle_Advertiser_TOS.pdf Flurry/Licenses/Flurry_AppCircle_Advertiser_TOS.pdf
+cCpResource build/Debug-iphonesimulator/NavTest.app/Flurry_AppSpot_Publisher_Platform_TOS.pdf Flurry/Licenses/Flurry_AppSpot_Publisher_Platform_TOS.pdf
+cCpResource build/Debug-iphonesimulator/NavTest.app/Jansson-LICENSE.txt Flurry/Licenses/Jansson-LICENSE.txt
+cCpResource build/Debug-iphonesimulator/NavTest.app/ProjectApiKey.txt Flurry/ProjectApiKey.txt
 cProcessPCH /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch.gch NavTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/main.o /Users/Wayne/Desktop/NavTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -36,6 +48,11 @@ c000000004D54CFB80000000000001466
 t1297403832
 s5222
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54CF0700000000000689C0
+t1297403655
+s428480
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004D5615B40000000000000AA1
 t1297487284
@@ -64,16 +81,17 @@ s704
 i<UIKit/UIKit.h>
 
 N/Users/Wayne/Desktop/NavTest/Classes/MainView.m
-c0000000050499D0C00000000000007BD
-t1347001612
-s1981
+c00000000504A92A20000000000000846
+t1347064482
+s2118
 i"MainView.h"
 i"SecondView.h"
+i"Flurry.h"
 
 N/Users/Wayne/Desktop/NavTest/Classes/MainView.xib
-c00000000504997CE00000000000067BC
-t1347000270
-s26556
+c00000000504A909700000000000067BF
+t1347063959
+s26559
 
 N/Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.h
 c000000005049923300000000000001C9
@@ -82,10 +100,87 @@ s457
 i<UIKit/UIKit.h>
 
 N/Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m
-c000000005049938C0000000000000A20
-t1346999180
-s2592
+c00000000504A924C0000000000000ACB
+t1347064396
+s2763
 i"NavTestAppDelegate.h"
+i"Flurry.h"
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Flurry/Flurry.h
+c0000000050499F540000000000005585
+t1347002196
+s21893
+i<UIKit/UIKit.h>
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Flurry/libFlurry.a
+c0000000050499F54000000000020A45C
+t1347002196
+s2139228
+
+N/Users/Wayne/Desktop/NavTest/Flurry/FlurryAds-iOS-READMEv4.0.pdf
+c0000000050499F560000000000021D42
+t1347002198
+s138562
+
+N/Users/Wayne/Desktop/NavTest/Flurry/FlurryAds-iOS-ReleaseNotesv4.0.pdf
+c0000000050499F560000000000012F07
+t1347002198
+s77575
+
+N/Users/Wayne/Desktop/NavTest/Flurry/FlurryAds/libFlurryAds.a
+c0000000050499F56000000000092F73C
+t1347002198
+s9631548
+
+N/Users/Wayne/Desktop/NavTest/Flurry/FlurryAnalytics-READMEv4.0.pdf
+c0000000050499F56000000000002A5F5
+t1347002198
+s173557
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Avro-LICENSE.txt
+c0000000050499F540000000000002C5E
+t1347002196
+s11358
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf
+c0000000050499F54000000000001E147
+t1347002196
+s123207
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf
+c0000000050499F54000000000002667A
+t1347002196
+s157306
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry-LICENSE.txt
+c0000000050499F540000000000000186
+t1347002196
+s390
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry_AppCircle_Advertiser_TOS.pdf
+c0000000050499F54000000000001E147
+t1347002196
+s123207
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry_AppSpot_Publisher_Platform_TOS.pdf
+c0000000050499F540000000000026918
+t1347002196
+s157976
+
+N/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Jansson-LICENSE.txt
+c0000000050499F540000000000000439
+t1347002196
+s1081
+
+N/Users/Wayne/Desktop/NavTest/Flurry/ProjectApiKey.txt
+c0000000050499F56000000000000002F
+t1347002198
+s47
+
+N/Users/Wayne/Desktop/NavTest/Flurry/iOS-4.x-Upgrade-README.pdf
+c0000000050499F560000000000022E9A
+t1347002198
+s143002
 
 N/Users/Wayne/Desktop/NavTest/MainWindow.xib
 c000000005049955A0000000000006B02
@@ -117,40 +212,88 @@ t1347001424
 s6233
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app
-t1347001612
-s272
+t1347064483
+s680
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM
-t1347001612
+t1347064483
 s102
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Avro-LICENSE.txt
+t1347063923
+s11358
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf
+t1347063923
+s123207
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf
+t1347063923
+s157306
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Flurry-LICENSE.txt
+t1347063923
+s390
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/FlurryAds-iOS-READMEv4.0.pdf
+t1347063923
+s138562
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/FlurryAds-iOS-ReleaseNotesv4.0.pdf
+t1347063923
+s77575
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/FlurryAnalytics-READMEv4.0.pdf
+t1347063923
+s173557
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Flurry_AppCircle_Advertiser_TOS.pdf
+t1347063923
+s123207
+
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Flurry_AppSpot_Publisher_Platform_TOS.pdf
+t1347063923
+s157976
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Info.plist
 t1346999978
 s591
 
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Jansson-LICENSE.txt
+t1347063923
+s1081
+
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/MainView.nib
-t1347000274
-s4103
+t1347064058
+s4106
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/MainWindow.nib
 t1346999979
 s2640
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest
-t1347001612
-s19252
+t1347064483
+s246588
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/PkgInfo
 t1346999978
 s8
 
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/ProjectApiKey.txt
+t1347063923
+s47
+
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/SecondView.nib
 t1347001587
 s2084
 
+N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/iOS-4.x-Upgrade-README.pdf
+t1347063923
+s143002
+
 N/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/MainView.o
-t1347001612
-s45328
+t1347064483
+s45792
 
 N/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTest.LinkFileList
 c0000000050499CF200000000000001D8
@@ -158,8 +301,8 @@ t1347001586
 s472
 
 N/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o
-t1346999980
-s52860
+t1347064399
+s53928
 
 N/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/SecondView.o
 t1347001587
@@ -186,11 +329,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies368694412#368694412#0(0"0(0#1#0"8614900128#0"0#
+lSLF07#2@18"Check dependencies368757440#368757440#0(0"0(0#1#0"8610862176#0"0#
 
 CCompileC build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/MainView.o /Users/Wayne/Desktop/NavTest/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s368694412.176509
-e368694412.352994
+s368757283.236431
+e368757283.369781
 r1
 xCompileC
 xbuild/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/MainView.o
@@ -199,11 +342,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/Wayne/Desktop/NavTest/Classes/MainView.m368694412#368694412#0(0"0(0#0#47"/Users/Wayne/Desktop/NavTest/Classes/MainView.m8615372192#1820"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -include /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch -c /Users/Wayne/Desktop/NavTest/Classes/MainView.m -o /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/MainView.o0#
+lSLF07#2@55"Compile /Users/Wayne/Desktop/NavTest/Classes/MainView.m368757283#368757283#0(0"0(0#0#47"/Users/Wayne/Desktop/NavTest/Classes/MainView.m8611349632#1820"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -include /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch -c /Users/Wayne/Desktop/NavTest/Classes/MainView.m -o /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/MainView.o0#
 
 CCompileC build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s368692780.172340
-e368692780.256723
+s368757199.645805
+e368757199.782760
 r1
 xCompileC
 xbuild/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o
@@ -212,7 +355,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m368692780#368692780#0(0"0(0#0#57"/Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m8601234528#1840"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -include /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch -c /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m -o /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o0#
+lSLF07#2@65"Compile /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m368757199#368757199#0(0"0(0#0#57"/Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m8612264768#1840"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -include /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch -c /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m -o /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o0#
 
 CCompileC build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/SecondView.o /Users/Wayne/Desktop/NavTest/Classes/../SecondView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s368694387.326879
@@ -252,12 +395,12 @@ x/Users/Wayne/Desktop/NavTest/Classes/../SecondView.xib
 lSLF07#2@36"CompileXIB Classes/../SecondView.xib368694386#368694387#0(0"0(0#0#54"/Users/Wayne/Desktop/NavTest/Classes/../SecondView.xib18859025310679156#551"    cd /Users/Wayne/Desktop/NavTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/SecondView.nib /Users/Wayne/Desktop/NavTest/Classes/../SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCompileXIB /Users/Wayne/Desktop/NavTest/Classes/MainView.xib
-s368693074.153374
-e368693074.598193
+s368756858.323294
+e368756858.783118
 r1
 xCompileXIB
 x/Users/Wayne/Desktop/NavTest/Classes/MainView.xib
-lSLF07#2@31"CompileXIB Classes/MainView.xib368693074#368693074#0(0"0(0#0#49"/Users/Wayne/Desktop/NavTest/Classes/MainView.xib8613249984#544"    cd /Users/Wayne/Desktop/NavTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/MainView.nib /Users/Wayne/Desktop/NavTest/Classes/MainView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+lSLF07#2@31"CompileXIB Classes/MainView.xib368756858#368756858#0(0"0(0#0#49"/Users/Wayne/Desktop/NavTest/Classes/MainView.xib8613995264#544"    cd /Users/Wayne/Desktop/NavTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/MainView.nib /Users/Wayne/Desktop/NavTest/Classes/MainView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCompileXIB /Users/Wayne/Desktop/NavTest/MainWindow.xib
 s368692778.672971
@@ -270,24 +413,132 @@ lSLF07#2@25"CompileXIB MainWindow.xib368692778#368692779#0(0"0(0#0#43"/Users/Way
 CCompileXIB /Users/Wayne/Desktop/NavTest/SecondView.xib
 r0
 
+CCpResource "build/Debug-iphonesimulator/NavTest.app/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf" "Flurry/Licenses/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf"
+s368756722.621371
+e368756723.025448
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf
+xFlurry/Licenses/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf
+lSLF07#2@77"Copy Flurry/Licenses/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf368756722#368756723#0(0"0(0#0#101"/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf8612988992#502"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf" /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource "build/Debug-iphonesimulator/NavTest.app/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf" "Flurry/Licenses/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf"
+s368756722.622310
+e368756723.024611
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf
+xFlurry/Licenses/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf
+lSLF07#2@83"Copy Flurry/Licenses/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf368756722#368756723#0(0"0(0#0#107"/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf7809933690816196608#508"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf" /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/Avro-LICENSE.txt Flurry/Licenses/Avro-LICENSE.txt
+s368756722.620690
+e368756723.010305
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/Avro-LICENSE.txt
+xFlurry/Licenses/Avro-LICENSE.txt
+lSLF07#2@37"Copy Flurry/Licenses/Avro-LICENSE.txt368756722#368756723#0(0"0(0#0#61"/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Avro-LICENSE.txt8613406464#460"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/Licenses/Avro-LICENSE.txt /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/Flurry-LICENSE.txt Flurry/Licenses/Flurry-LICENSE.txt
+s368756722.623693
+e368756723.016928
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/Flurry-LICENSE.txt
+xFlurry/Licenses/Flurry-LICENSE.txt
+lSLF07#2@39"Copy Flurry/Licenses/Flurry-LICENSE.txt368756722#368756723#0(0"0(0#0#63"/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry-LICENSE.txt8613132768#462"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry-LICENSE.txt /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/FlurryAds-iOS-READMEv4.0.pdf Flurry/FlurryAds-iOS-READMEv4.0.pdf
+s368756722.611726
+e368756723.025733
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/FlurryAds-iOS-READMEv4.0.pdf
+xFlurry/FlurryAds-iOS-READMEv4.0.pdf
+lSLF07#2@40"Copy Flurry/FlurryAds-iOS-READMEv4.0.pdf368756722#368756723#0(0"0(0#0#64"/Users/Wayne/Desktop/NavTest/Flurry/FlurryAds-iOS-READMEv4.0.pdf28429333432762464#463"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/FlurryAds-iOS-READMEv4.0.pdf /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/FlurryAds-iOS-ReleaseNotesv4.0.pdf Flurry/FlurryAds-iOS-ReleaseNotesv4.0.pdf
+s368756722.616736
+e368756723.025054
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/FlurryAds-iOS-ReleaseNotesv4.0.pdf
+xFlurry/FlurryAds-iOS-ReleaseNotesv4.0.pdf
+lSLF07#2@46"Copy Flurry/FlurryAds-iOS-ReleaseNotesv4.0.pdf368756722#368756723#0(0"0(0#0#70"/Users/Wayne/Desktop/NavTest/Flurry/FlurryAds-iOS-ReleaseNotesv4.0.pdf8613380064#469"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/FlurryAds-iOS-ReleaseNotesv4.0.pdf /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/FlurryAnalytics-READMEv4.0.pdf Flurry/FlurryAnalytics-READMEv4.0.pdf
+s368756722.618459
+e368756723.025197
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/FlurryAnalytics-READMEv4.0.pdf
+xFlurry/FlurryAnalytics-READMEv4.0.pdf
+lSLF07#2@42"Copy Flurry/FlurryAnalytics-READMEv4.0.pdf368756722#368756723#0(0"0(0#0#66"/Users/Wayne/Desktop/NavTest/Flurry/FlurryAnalytics-READMEv4.0.pdf8613263456#465"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/FlurryAnalytics-READMEv4.0.pdf /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/Flurry_AppCircle_Advertiser_TOS.pdf Flurry/Licenses/Flurry_AppCircle_Advertiser_TOS.pdf
+s368756722.624351
+e368756723.027343
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/Flurry_AppCircle_Advertiser_TOS.pdf
+xFlurry/Licenses/Flurry_AppCircle_Advertiser_TOS.pdf
+lSLF07#2@56"Copy Flurry/Licenses/Flurry_AppCircle_Advertiser_TOS.pdf368756722#368756723#0(0"0(0#0#80"/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry_AppCircle_Advertiser_TOS.pdf8612978048#479"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry_AppCircle_Advertiser_TOS.pdf /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/Flurry_AppSpot_Publisher_Platform_TOS.pdf Flurry/Licenses/Flurry_AppSpot_Publisher_Platform_TOS.pdf
+s368756722.625882
+e368756723.028594
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/Flurry_AppSpot_Publisher_Platform_TOS.pdf
+xFlurry/Licenses/Flurry_AppSpot_Publisher_Platform_TOS.pdf
+lSLF07#2@62"Copy Flurry/Licenses/Flurry_AppSpot_Publisher_Platform_TOS.pdf368756722#368756723#0(0"0(0#0#86"/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry_AppSpot_Publisher_Platform_TOS.pdf8612936800#485"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/Licenses/Flurry_AppSpot_Publisher_Platform_TOS.pdf /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/Jansson-LICENSE.txt Flurry/Licenses/Jansson-LICENSE.txt
+s368756723.010401
+e368756723.024809
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/Jansson-LICENSE.txt
+xFlurry/Licenses/Jansson-LICENSE.txt
+lSLF07#2@40"Copy Flurry/Licenses/Jansson-LICENSE.txt368756723#368756723#0(0"0(0#0#64"/Users/Wayne/Desktop/NavTest/Flurry/Licenses/Jansson-LICENSE.txt8613570304#463"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/Licenses/Jansson-LICENSE.txt /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/ProjectApiKey.txt Flurry/ProjectApiKey.txt
+s368756723.017056
+e368756723.025577
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/ProjectApiKey.txt
+xFlurry/ProjectApiKey.txt
+lSLF07#2@29"Copy Flurry/ProjectApiKey.txt368756723#368756723#0(0"0(0#0#53"/Users/Wayne/Desktop/NavTest/Flurry/ProjectApiKey.txt8613414176#452"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/ProjectApiKey.txt /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
+CCpResource build/Debug-iphonesimulator/NavTest.app/iOS-4.x-Upgrade-README.pdf Flurry/iOS-4.x-Upgrade-README.pdf
+s368756722.619232
+e368756723.025313
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/NavTest.app/iOS-4.x-Upgrade-README.pdf
+xFlurry/iOS-4.x-Upgrade-README.pdf
+lSLF07#2@38"Copy Flurry/iOS-4.x-Upgrade-README.pdf368756722#368756723#0(0"0(0#0#62"/Users/Wayne/Desktop/NavTest/Flurry/iOS-4.x-Upgrade-README.pdf8610890560#461"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wayne/Desktop/NavTest/Flurry/iOS-4.x-Upgrade-README.pdf /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+
 CGenerateDSYMFile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest
-s368694412.382499
-e368694412.400458
+s368757283.425919
+e368757283.477022
 r1
 xGenerateDSYMFile
 x/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM
 x/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/NavTest.app.dSYM build/Debug-iphonesimulator/NavTest.app/NavTest368694412#368694412#0(0"0(0#0#76"/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest8615664608#353"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest -o /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/NavTest.app.dSYM build/Debug-iphonesimulator/NavTest.app/NavTest368757283#368757283#0(0"0(0#0#76"/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest8613690080#353"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest -o /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM0#
 
 CLd /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest normal i386
-s368694412.353207
-e368694412.382377
+s368757283.369872
+e368757283.425822
 r1
 xLd
 x/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest
 xnormal
 xi386
-lSLF07#2@81"Link /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest368694412#368694412#0(0"0(0#0#0"8606619552#850"    cd /Users/Wayne/Desktop/NavTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -filelist /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest0#
+lSLF07#2@81"Link /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest368757283#368757283#0(0"0(0#0#0"8611656896#995"    cd /Users/Wayne/Desktop/NavTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -L/Users/Wayne/Desktop/NavTest/Flurry/Flurry -L/Users/Wayne/Desktop/NavTest/Flurry/FlurryAds -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -filelist /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lFlurry -lFlurryAds -framework SystemConfiguration -o /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest0#
 
 CProcessInfoPlistFile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Info.plist NavTest-Info.plist
 s368692778.669413
@@ -312,10 +563,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile NavTest_Prefix.pch368692779#368692780#0(0"0(0#0#47"/Users/Wayne/Desktop/NavTest/NavTest_Prefix.pch8612934624#1706"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -c /Users/Wayne/Desktop/NavTest/NavTest_Prefix.pch -o /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch.gch0#
 
 CTouch /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app
-s368694412.400715
-e368694412.403254
+s368757283.477110
+e368757283.479977
 r1
 xTouch
 x/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app
-lSLF07#2@74"Touch /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app368694412#368694412#0(0"0(0#0#0"8615485792#258"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+lSLF07#2@74"Touch /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app368757283#368757283#0(0"0(0#0#0"8613295744#258"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
 

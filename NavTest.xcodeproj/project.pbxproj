@@ -15,6 +15,21 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		B02B459C15F9D3D000BF32ED /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = B02B459A15F9D3D000BF32ED /* SecondView.m */; };
 		B02B459D15F9D3D000BF32ED /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02B459B15F9D3D000BF32ED /* SecondView.xib */; };
+		B05880A215FAC78A007C4CA4 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B058809015FAC78A007C4CA4 /* libFlurry.a */; };
+		B05880A315FAC78A007C4CA4 /* libFlurryAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B058809415FAC78A007C4CA4 /* libFlurryAds.a */; };
+		B05880A415FAC78A007C4CA4 /* FlurryAds-iOS-READMEv4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B058809515FAC78A007C4CA4 /* FlurryAds-iOS-READMEv4.0.pdf */; };
+		B05880A515FAC78A007C4CA4 /* FlurryAds-iOS-ReleaseNotesv4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B058809615FAC78A007C4CA4 /* FlurryAds-iOS-ReleaseNotesv4.0.pdf */; };
+		B05880A615FAC78A007C4CA4 /* FlurryAnalytics-READMEv4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B058809715FAC78A007C4CA4 /* FlurryAnalytics-READMEv4.0.pdf */; };
+		B05880A715FAC78A007C4CA4 /* iOS-4.x-Upgrade-README.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B058809815FAC78A007C4CA4 /* iOS-4.x-Upgrade-README.pdf */; };
+		B05880A815FAC78A007C4CA4 /* Avro-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B058809A15FAC78A007C4CA4 /* Avro-LICENSE.txt */; };
+		B05880A915FAC78A007C4CA4 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B058809B15FAC78A007C4CA4 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf */; };
+		B05880AA15FAC78A007C4CA4 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B058809C15FAC78A007C4CA4 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf */; };
+		B05880AB15FAC78A007C4CA4 /* Flurry-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B058809D15FAC78A007C4CA4 /* Flurry-LICENSE.txt */; };
+		B05880AC15FAC78A007C4CA4 /* Flurry_AppCircle_Advertiser_TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B058809E15FAC78A007C4CA4 /* Flurry_AppCircle_Advertiser_TOS.pdf */; };
+		B05880AD15FAC78A007C4CA4 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B058809F15FAC78A007C4CA4 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf */; };
+		B05880AE15FAC78A007C4CA4 /* Jansson-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B05880A015FAC78A007C4CA4 /* Jansson-LICENSE.txt */; };
+		B05880AF15FAC78A007C4CA4 /* ProjectApiKey.txt in Resources */ = {isa = PBXBuildFile; fileRef = B05880A115FAC78A007C4CA4 /* ProjectApiKey.txt */; };
+		B05880B215FAC7AA007C4CA4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05880B115FAC7AA007C4CA4 /* SystemConfiguration.framework */; };
 		B0AFC39E15F9CB38009FA3B0 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AFC39C15F9CB38009FA3B0 /* MainView.m */; };
 		B0AFC39F15F9CB38009FA3B0 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0AFC39D15F9CB38009FA3B0 /* MainView.xib */; };
 /* End PBXBuildFile section */
@@ -33,6 +48,24 @@
 		B02B459915F9D3D000BF32ED /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondView.h; path = ../SecondView.h; sourceTree = "<group>"; };
 		B02B459A15F9D3D000BF32ED /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondView.m; path = ../SecondView.m; sourceTree = "<group>"; };
 		B02B459B15F9D3D000BF32ED /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SecondView.xib; path = ../SecondView.xib; sourceTree = "<group>"; };
+		B058808F15FAC78A007C4CA4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		B058809015FAC78A007C4CA4 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		B058809215FAC78A007C4CA4 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		B058809315FAC78A007C4CA4 /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		B058809415FAC78A007C4CA4 /* libFlurryAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds.a; sourceTree = "<group>"; };
+		B058809515FAC78A007C4CA4 /* FlurryAds-iOS-READMEv4.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FlurryAds-iOS-READMEv4.0.pdf"; sourceTree = "<group>"; };
+		B058809615FAC78A007C4CA4 /* FlurryAds-iOS-ReleaseNotesv4.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FlurryAds-iOS-ReleaseNotesv4.0.pdf"; sourceTree = "<group>"; };
+		B058809715FAC78A007C4CA4 /* FlurryAnalytics-READMEv4.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FlurryAnalytics-READMEv4.0.pdf"; sourceTree = "<group>"; };
+		B058809815FAC78A007C4CA4 /* iOS-4.x-Upgrade-README.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iOS-4.x-Upgrade-README.pdf"; sourceTree = "<group>"; };
+		B058809A15FAC78A007C4CA4 /* Avro-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Avro-LICENSE.txt"; sourceTree = "<group>"; };
+		B058809B15FAC78A007C4CA4 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf"; sourceTree = "<group>"; };
+		B058809C15FAC78A007C4CA4 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf"; sourceTree = "<group>"; };
+		B058809D15FAC78A007C4CA4 /* Flurry-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flurry-LICENSE.txt"; sourceTree = "<group>"; };
+		B058809E15FAC78A007C4CA4 /* Flurry_AppCircle_Advertiser_TOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Flurry_AppCircle_Advertiser_TOS.pdf; sourceTree = "<group>"; };
+		B058809F15FAC78A007C4CA4 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Flurry_AppSpot_Publisher_Platform_TOS.pdf; sourceTree = "<group>"; };
+		B05880A015FAC78A007C4CA4 /* Jansson-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Jansson-LICENSE.txt"; sourceTree = "<group>"; };
+		B05880A115FAC78A007C4CA4 /* ProjectApiKey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProjectApiKey.txt; sourceTree = "<group>"; };
+		B05880B115FAC7AA007C4CA4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B0AFC39B15F9CB38009FA3B0 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		B0AFC39C15F9CB38009FA3B0 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		B0AFC39D15F9CB38009FA3B0 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
@@ -46,6 +79,9 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B05880A215FAC78A007C4CA4 /* libFlurry.a in Frameworks */,
+				B05880A315FAC78A007C4CA4 /* libFlurryAds.a in Frameworks */,
+				B05880B215FAC7AA007C4CA4 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +114,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				B058808D15FAC78A007C4CA4 /* Flurry */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -111,8 +148,57 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B05880B115FAC7AA007C4CA4 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B058808D15FAC78A007C4CA4 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				B058808E15FAC78A007C4CA4 /* Flurry */,
+				B058809115FAC78A007C4CA4 /* FlurryAds */,
+				B058809515FAC78A007C4CA4 /* FlurryAds-iOS-READMEv4.0.pdf */,
+				B058809615FAC78A007C4CA4 /* FlurryAds-iOS-ReleaseNotesv4.0.pdf */,
+				B058809715FAC78A007C4CA4 /* FlurryAnalytics-READMEv4.0.pdf */,
+				B058809815FAC78A007C4CA4 /* iOS-4.x-Upgrade-README.pdf */,
+				B058809915FAC78A007C4CA4 /* Licenses */,
+				B05880A115FAC78A007C4CA4 /* ProjectApiKey.txt */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		B058808E15FAC78A007C4CA4 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				B058808F15FAC78A007C4CA4 /* Flurry.h */,
+				B058809015FAC78A007C4CA4 /* libFlurry.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		B058809115FAC78A007C4CA4 /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				B058809215FAC78A007C4CA4 /* FlurryAdDelegate.h */,
+				B058809315FAC78A007C4CA4 /* FlurryAds.h */,
+				B058809415FAC78A007C4CA4 /* libFlurryAds.a */,
+			);
+			path = FlurryAds;
+			sourceTree = "<group>";
+		};
+		B058809915FAC78A007C4CA4 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				B058809A15FAC78A007C4CA4 /* Avro-LICENSE.txt */,
+				B058809B15FAC78A007C4CA4 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf */,
+				B058809C15FAC78A007C4CA4 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf */,
+				B058809D15FAC78A007C4CA4 /* Flurry-LICENSE.txt */,
+				B058809E15FAC78A007C4CA4 /* Flurry_AppCircle_Advertiser_TOS.pdf */,
+				B058809F15FAC78A007C4CA4 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf */,
+				B05880A015FAC78A007C4CA4 /* Jansson-LICENSE.txt */,
+			);
+			path = Licenses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +253,18 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				B0AFC39F15F9CB38009FA3B0 /* MainView.xib in Resources */,
 				B02B459D15F9D3D000BF32ED /* SecondView.xib in Resources */,
+				B05880A415FAC78A007C4CA4 /* FlurryAds-iOS-READMEv4.0.pdf in Resources */,
+				B05880A515FAC78A007C4CA4 /* FlurryAds-iOS-ReleaseNotesv4.0.pdf in Resources */,
+				B05880A615FAC78A007C4CA4 /* FlurryAnalytics-READMEv4.0.pdf in Resources */,
+				B05880A715FAC78A007C4CA4 /* iOS-4.x-Upgrade-README.pdf in Resources */,
+				B05880A815FAC78A007C4CA4 /* Avro-LICENSE.txt in Resources */,
+				B05880A915FAC78A007C4CA4 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf in Resources */,
+				B05880AA15FAC78A007C4CA4 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf in Resources */,
+				B05880AB15FAC78A007C4CA4 /* Flurry-LICENSE.txt in Resources */,
+				B05880AC15FAC78A007C4CA4 /* Flurry_AppCircle_Advertiser_TOS.pdf in Resources */,
+				B05880AD15FAC78A007C4CA4 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf in Resources */,
+				B05880AE15FAC78A007C4CA4 /* Jansson-LICENSE.txt in Resources */,
+				B05880AF15FAC78A007C4CA4 /* ProjectApiKey.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +295,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NavTest_Prefix.pch;
 				INFOPLIST_FILE = "NavTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Flurry/Flurry\"",
+					"\"$(SRCROOT)/Flurry/FlurryAds\"",
+				);
 				PRODUCT_NAME = NavTest;
 			};
 			name = Debug;
@@ -209,6 +312,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NavTest_Prefix.pch;
 				INFOPLIST_FILE = "NavTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Flurry/Flurry\"",
+					"\"$(SRCROOT)/Flurry/FlurryAds\"",
+				);
 				PRODUCT_NAME = NavTest;
 				VALIDATE_PRODUCT = YES;
 			};
