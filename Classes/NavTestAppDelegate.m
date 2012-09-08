@@ -25,11 +25,19 @@
 												 delegate:nil];
 		
 	// Google SCREEN-2
+	NSError *error = nil;
 	if (![[GANTracker sharedTracker] trackPageview:@"/first_view"
-										 withError:nil]) {
+										 withError:&error]) {
 		// Handle error here
 	}
-	
+	NSLog(@"Hello Wayne");
+	if (error != nil) {
+		NSLog(@"It's not nil");
+		NSLog(@"The error is %@", error);
+	} else {
+		NSLog(@"It is nil");
+		NSLog(@"The error is %@", error);
+	}
 	
     // Override point for customization after application launch.
     self.window.rootViewController = self.myNavController;
