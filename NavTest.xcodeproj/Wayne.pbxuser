@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* NavTestAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1222}}";
-			sepNavSelRange = "{649, 0}";
-			sepNavVisRange = "{2213, 781}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1326}}";
+			sepNavSelRange = "{601, 0}";
+			sepNavVisRange = "{0, 962}";
 			sepNavWindowFrame = "{{50, 215}, {750, 558}}";
 		};
 	};
@@ -24,6 +24,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = B0AFC38415F9C8F8009FA3B0 /* NavTest */;
+		activeSDKPreference = iphonesimulator4.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* NavTest */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* NavTest */,
@@ -55,8 +56,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 368760157;
-			PBXWorkspaceStateSaveDate = 368760157;
+			PBXPerProjectTemplateStateSaveDate = 368769448;
+			PBXWorkspaceStateSaveDate = 368769448;
+		};
+		perUserProjectItems = {
+			B06A8A1D15FAF9A200E85311 /* PBXTextBookmark */ = B06A8A1D15FAF9A200E85311 /* PBXTextBookmark */;
+			B0D2994215FAFAB3003344E6 /* PBXTextBookmark */ = B0D2994215FAFAB3003344E6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B0AFC39315F9C8FB009FA3B0 /* Source Control */;
 		userBuildSettings = {
@@ -75,6 +80,16 @@
 			sepNavSelRange = "{858, 0}";
 			sepNavVisRange = "{606, 295}";
 		};
+	};
+	B06A8A1D15FAF9A200E85311 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* NavTestAppDelegate.m */;
+		name = "NavTestAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 962;
+		vrLoc = 0;
 	};
 	B0AFC38415F9C8F8009FA3B0 /* NavTest */ = {
 		isa = PBXExecutable;
@@ -131,6 +146,16 @@
 			sepNavSelRange = "{1830, 0}";
 			sepNavVisRange = "{130, 706}";
 		};
+	};
+	B0D2994215FAFAB3003344E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* NavTestAppDelegate.m */;
+		name = "NavTestAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 601;
+		rType = 0;
+		vrLen = 962;
+		vrLoc = 0;
 	};
 	B0D7CF2115FAD32700F398C7 /* GANTracker.h */ = {
 		uiCtxt = {

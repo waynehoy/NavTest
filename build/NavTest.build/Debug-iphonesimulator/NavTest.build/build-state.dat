@@ -1,7 +1,7 @@
 TNavTest
 v7
 r0
-t368760571.577449
+t368769600.687872
 cCheck dependencies
 cProcessInfoPlistFile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Info.plist NavTest-Info.plist
 cCompileXIB /Users/Wayne/Desktop/NavTest/MainWindow.xib
@@ -99,9 +99,9 @@ s457
 i<UIKit/UIKit.h>
 
 N/Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m
-c00000000504A9F740000000000000BB2
-t1347067764
-s2994
+c00000000504AC2C00000000000000BB3
+t1347076800
+s2995
 i"NavTestAppDelegate.h"
 i"GANTracker.h"
 
@@ -140,11 +140,11 @@ t1347001424
 s6233
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app
-t1347067771
+t1347076800
 s272
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM
-t1347067771
+t1347076800
 s102
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Info.plist
@@ -160,7 +160,7 @@ t1346999979
 s2640
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest
-t1347067771
+t1347076800
 s170732
 
 N/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/PkgInfo
@@ -181,7 +181,7 @@ t1347001586
 s472
 
 N/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o
-t1347067771
+t1347076800
 s54400
 
 N/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/SecondView.o
@@ -209,7 +209,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies368760571#368760571#0(0"0(0#1#0"8609262048#0"0#
+lSLF07#2@18"Check dependencies368769600#368769600#0(0"0(0#1#0"8604135744#0"0#
 
 CCompileC build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/MainView.o /Users/Wayne/Desktop/NavTest/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s368760571.194028
@@ -225,8 +225,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@55"Compile /Users/Wayne/Desktop/NavTest/Classes/MainView.m368760571#368760571#0(0"0(0#0#47"/Users/Wayne/Desktop/NavTest/Classes/MainView.m8616893536#1820"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -include /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch -c /Users/Wayne/Desktop/NavTest/Classes/MainView.m -o /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/MainView.o0#
 
 CCompileC build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s368760571.126295
-e368760571.381391
+s368769600.351669
+e368769600.552610
 r1
 xCompileC
 xbuild/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o
@@ -235,7 +235,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m368760571#368760571#0(0"0(0#0#57"/Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m8603945728#1840"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -include /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch -c /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m -o /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o0#
+lSLF07#2@65"Compile /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m368769600#368769600#0(0"0(0#0#57"/Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m3419484896126984704#1840"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -include /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch -c /Users/Wayne/Desktop/NavTest/Classes/NavTestAppDelegate.m -o /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTestAppDelegate.o0#
 
 CCompileC build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/SecondView.o /Users/Wayne/Desktop/NavTest/Classes/../SecondView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s368760469.710916
@@ -294,23 +294,23 @@ CCompileXIB /Users/Wayne/Desktop/NavTest/SecondView.xib
 r0
 
 CGenerateDSYMFile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest
-s368760571.480469
-e368760571.574678
+s368769600.650671
+e368769600.683858
 r1
 xGenerateDSYMFile
 x/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM
 x/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/NavTest.app.dSYM build/Debug-iphonesimulator/NavTest.app/NavTest368760571#368760571#0(0"0(0#0#76"/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest8608727040#353"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest -o /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/NavTest.app.dSYM build/Debug-iphonesimulator/NavTest.app/NavTest368769600#368769600#0(0"0(0#0#76"/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest8606284992#353"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest -o /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app.dSYM0#
 
 CLd /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest normal i386
-s368760571.381879
-e368760571.480117
+s368769600.552728
+e368769600.650568
 r1
 xLd
 x/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest
 xnormal
 xi386
-lSLF07#2@81"Link /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest368760571#368760571#0(0"0(0#0#0"8614474560#940"    cd /Users/Wayne/Desktop/NavTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -L/Users/Wayne/Desktop/NavTest/Classes -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -filelist /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lGoogleAnalytics -framework CFNetwork -lsqlite3.0 -o /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest0#
+lSLF07#2@81"Link /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest368769600#368769600#0(0"0(0#0#0"8593490624#940"    cd /Users/Wayne/Desktop/NavTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -L/Users/Wayne/Desktop/NavTest/Classes -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -filelist /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/Objects-normal/i386/NavTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lGoogleAnalytics -framework CFNetwork -lsqlite3.0 -o /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/NavTest0#
 
 CProcessInfoPlistFile /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app/Info.plist NavTest-Info.plist
 s368692778.669413
@@ -335,10 +335,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile NavTest_Prefix.pch368692779#368692780#0(0"0(0#0#47"/Users/Wayne/Desktop/NavTest/NavTest_Prefix.pch8612934624#1706"    cd /Users/Wayne/Desktop/NavTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-generated-files.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-own-target-headers.hmap -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-all-target-headers.hmap -iquote /Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/NavTest-project-headers.hmap -F/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator -I/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/include -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources/i386 -I/Users/Wayne/Desktop/NavTest/build/NavTest.build/Debug-iphonesimulator/NavTest.build/DerivedSources -c /Users/Wayne/Desktop/NavTest/NavTest_Prefix.pch -o /var/folders/4G/4GEUty07ED0lBExuNTF0lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavTest_Prefix-hekbljqfbcsszwcqpbwzevolokmp/NavTest_Prefix.pch.gch0#
 
 CTouch /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app
-s368760571.574790
-e368760571.577404
+s368769600.683941
+e368769600.687825
 r1
 xTouch
 x/Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app
-lSLF07#2@74"Touch /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app368760571#368760571#0(0"0(0#0#0"8612948960#258"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
+lSLF07#2@74"Touch /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app368769600#368769600#0(0"0(0#0#0"8605806112#258"    cd /Users/Wayne/Desktop/NavTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Wayne/Desktop/NavTest/build/Debug-iphonesimulator/NavTest.app0#
 

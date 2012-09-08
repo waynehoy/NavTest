@@ -21,7 +21,7 @@
     
 	// Google SETUP-2 Begin
 	[[GANTracker sharedTracker] startTrackerWithAccountID:@"UA-34669016-1"
-										   dispatchPeriod:0
+										   dispatchPeriod:-1
 												 delegate:nil];
 		
 	// Google SCREEN-2
